@@ -42,7 +42,7 @@ class App extends Component {
 		console.log(id);
 		this.setState({ todos: this.state.items.map(item => {
 			if(item.id === id) {
-				item.name += "purchased";
+				item.name += " purchased";
 			}
 			return item;
 		}) })
